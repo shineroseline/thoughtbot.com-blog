@@ -1,0 +1,260 @@
+
+/* nav bar */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.nav-bar{
+    height: 60px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    background-color: RGB(255, 255, 255);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    /* border: 3px solid red; */
+
+    /* width: 100%;
+    height: 55px; */
+    /* border: 3px solid red;
+    background-color: RGB(255, 255, 255);
+    /* vertical-align: baseline;
+    position:fixed;
+    top: 0px;
+    left: 0px; */
+    
+}
+
+.navbar-brand{
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.navbar-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+.navbar-links li a:hover{
+    color: #E03131;
+}
+
+/* .nav-anchors{
+    display:inline; 
+    vertical-align: baseline;  
+    margin-left: 400px;
+    margin-top: -15px;
+} */
+
+/* a{
+    text-decoration: none;
+    font-size: 19px;
+    padding: 5px;
+    margin-right: 5px;
+    
+    color: red;
+} */
+.search-svg{
+    width: 20px;
+    height: 20px;
+    line-height: 30.4px;
+    margin-right: 50px;
+}
+.help-button{
+    display: inline;
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+    border-bottom: 30px;
+    border: 1px solid red;
+    color: RGB(255, 255, 255);
+    background-color:RGB(213, 47, 47);
+}
+
+/* body */
+.body{
+    margin: 64px 281.667px 0px;
+    padding: 0px 16px;
+    font-family:sans-serif;
+    font-size: 22.4px;
+    color:RGB(69, 69, 71);
+    /* position:; */
+}
+h1{
+    font-size: 40px;
+    margin: 0px 62px 16px;
+}
+p{
+    margin: 0px 90px 27px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thoughtbot{
+    font-size: 20px;
+    text-decoration: underline;
+}
+h2{
+    text-align: left;
+    margin: 0px 0px 18.24px;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: RGB(41, 41, 44);
+    box-sizing: initial;
+}
+.para2{
+    text-align: left;
+    margin: 0px 0px 18.24px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: RGB(41, 41, 44);
+    box-sizing: initial;
+}
+
+a:hover{
+color: rgb(170, 27, 5);
+}
+
+.div1,.div2{
+    text-align: left;
+    display: block;
+}
+.a-vic{
+    font: size 15px; 
+}
+/* li{
+    list-style: none;
+} */
+.a24{
+      font-size: 9px;
+
+}
+.a11{
+    text-align: left;
+    margin: 50px 0px 18.24px;
+    color: black;
+    margin-top: 30px;
+    box-sizing: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.a11:hover{
+    color: red;
+}
+.li-1{
+    margin-bottom: 50px;
+}
+
+/* footer */
+.buttom-nav{
+    font-size: 15px;
+    margin: 0px 90px 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 50px;
+}
+
+.sign-up{
+    width: 50vw;
+    height: 15vw;
+    margin:10px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
+    border: 0.5px solid #f1f1f1;
+    margin-bottom: 50px;
+    text-align: left;
+    opacity: 10px;
+}
+
+.sign-para{
+    margin:10px 20px 10px 20px;
+    padding:10px 20px 10px 20px;
+}
+
+.sign-form{
+    display: flex;
+}
+
+.email{
+    width: 31vw;
+    height: 3vw;
+    font-size: 22px;
+}
+
+.email:hover{
+    border: 1px solid grey;
+}
+
+
+.subscribe{
+    width: 10vw;
+    height: 3vw;
+    font-size: 22px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    /* margin-right: -30px; */
+}
+.subscribe:hover{
+    background-color: rgba(116, 8, 8, 0.815);
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    /* width: 100%; */
+    /* height: 30vw; */
+    background-color: #f1f1f1;
+}
+
+.nav-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.nav-footer ul{
+    list-style: none;
+    line-height: 1.5;
+}
+
+.nav-footer ul li a{
+    text-decoration: none;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    /* margin-bottom: 5rem; */
+}
+/* ul{
+    text-decoration: underline;
+    display: inline-block;
+   margin-left: 200px;
+   margin-top: 50px;
+   margin-bottom: 80px;
+   
+} */
+
+.footer-a{
+    color: black;
+}
+.footer-a:hover{
+    color: red;
+}
+
+.copyright{
+    margin: 0 1rem;
+}
